@@ -1,0 +1,94 @@
+.catalog-card-2 {
+    flex: 0 1 25%;
+    padding: 0 1.75rem;
+    max-width: 40.875rem;
+}
+.catalog-card-2__img {
+    max-width: 37.4rem;
+    height: auto;
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.catalog-card-2__descr {
+    max-width: 37.4rem;
+    position: relative;
+    padding: 3rem;
+    background: $biege;
+    border-radius: 0 0 5rem 5rem;
+    border: 0.15rem solid $line;
+}
+.catalog-card-2__title {
+    margin: 0 0 3rem 0;
+}
+.catalog-card-2__characteristics {
+    font-size: 1.8rem;
+    line-height: 2.5rem; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    margin: 0 0 4.2rem 0;
+    width: 32rem;
+}
+.catalog-card-2__characteristic {
+}
+.catalog-card-2__characteristic-text {
+}
+.catalog-card-2__characteristic-lines {
+    display: flex;
+    & span {
+        display: block;
+        width: 3.4rem;
+        height: 0.4rem;
+        background: $light;
+    }
+    & span:not(:last-child) {
+        margin: 0 0.3rem 0 0;
+    }
+    & span.active {
+        background: $darkBlue;
+    }
+}
+.catalog-card-2__weights {
+    display: flex;
+    align-items: center;
+    padding: 0 2.7rem;
+    margin: 0 0 3.5rem 0;
+}
+.catalog-card-2__weight {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: $darkGrey;
+    transition: 0.3s;
+    &:not(:last-child) {
+        margin: 0 4.8rem 0 0;
+    }
+    &.active {
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 2.8rem; 
+        color: $darkBlue;
+        & span {
+            line-height: 120%;
+            letter-spacing: 0.11rem;
+        }
+    }
+}
+.catalog-card-2__add-to-cart {
+    top: 27.4rem;
+    left: 28.4rem;
+}
+
+.catalog-card-2__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 37.4rem;
+    height: auto;
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

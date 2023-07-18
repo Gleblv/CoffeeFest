@@ -3,7 +3,11 @@
 @import 'header';
 @import 'footer';
 @import 'catalog-main-block';
+@import 'catalog-card-price';
+@import 'catalog-card-add-to-cart';
 @import 'catalog-card-1';
+@import 'catalog-card-2';
+@import 'catalog-main-banner';
 
 main {
     background: $light;
