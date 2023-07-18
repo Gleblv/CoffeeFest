@@ -2,3 +2,9 @@
 @import 'components';
 @import 'header';
 @import 'footer';
+@import 'catalog-main-block';
+@import 'catalog-card-1';
+
+main {
+    background: $light;
+}

@@ -1,0 +1,20 @@
+.catalog-main-block {
+    &:not(:last-child) {
+        margin: 0 0 15rem 0;
+    }
+}
+.catalog-main-block__container {
+    display: flex;
+    flex-direction: column;
+}
+.catalog-main-block__title {
+    margin: 0 0 5rem 0;
+}
+.catalog-main-block__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1.75rem 5rem -1.75rem;
+}
+.catalog-main-block__more {
+    margin: 0 0 0 auto;
+}
