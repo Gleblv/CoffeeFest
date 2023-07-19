@@ -33,3 +33,32 @@
     line-height: 2.5rem; 
     color: $darkGrey;
 }
+
+@media (max-width: 48em) {
+    .catalog-card__main-price {
+        font-size: 2.8rem;
+        line-height: 3.92rem;
+        & span {
+            font-size: 2.8rem;
+        }
+        &::before {
+            top: 1.3rem;
+            left: 0;
+            width: 7.6rem;
+            height: 0.1rem;
+        }
+    }
+    .catalog-card__sale-price {
+        font-size: 4.4rem;
+        line-height: 5.28rem;
+        & span {
+            font-size: 2.8rem;
+            font-weight: 400;
+            line-height: 7.2rem;
+        }
+    }
+    .catalog-card__weight {
+        font-size: 2.8rem;
+        line-height: 3.92rem; 
+    }
+}

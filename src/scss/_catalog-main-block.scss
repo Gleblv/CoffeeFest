@@ -16,3 +16,15 @@
 .catalog-main-block__more {
     margin: 0 0 0 auto;
 }
+
+@media (max-width: 48em) {
+    .catalog-main-block {
+        margin: 0 0 18rem 0;
+    }
+    .catalog-main-block__title {
+        margin: 0 0 8rem 0;
+    }
+    .catalog-main-block__row {
+        margin: 0 0rem 6.4rem 0rem;
+    }
+} 

@@ -51,3 +51,42 @@
         object-fit: cover;
     }
 }
+
+@media (max-width: 48em) {
+    .catalog-main-banner {
+        margin: 0 0 18rem 0;
+    }
+    .catalog-main-banner__container {
+        flex-direction: column;
+    }
+    .catalog-main-banner__left-part {
+        padding: 12rem 4rem 8rem 4rem;
+        max-width: none;
+        border-radius: 0 0 0 0;
+        border: 0.2rem solid $line;
+    }
+    .catalog-main-banner__title {
+        margin: 0 0 8rem 0;
+    }
+    .catalog-main-banner__subtitle {
+        margin: 0 0 4rem 0;
+    }
+    .catalog-main-banner__text {
+        font-size: 2.8rem;
+        line-height: 3.92rem; 
+    }
+    .catalog-main-banner__text-part {
+        &:not(:last-child) {
+            margin: 0 0 4rem 0;
+        }
+    }
+    .catalog-main-banner__background {
+        width: 71rem;
+        height: 100.4rem;
+    }
+    .catalog-main-banner__right-photo {
+        max-width: 71rem;
+        border-radius: 0 0 7.2rem 7.2rem;
+        overflow: hidden;
+    }
+} 
