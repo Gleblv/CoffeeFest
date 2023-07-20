@@ -1539,7 +1539,6 @@ input[type=number] {
     max-width: none;
     border-radius: 0 0 0 0;
     border: none;
-    background: url("../images/svg/banner-bckrnd-mob.svg") top left/cover no-repeat #1e283f;
   }
   .catalog-main-banner__title {
     margin: 0 0 8rem 0;
@@ -1555,7 +1554,7 @@ input[type=number] {
     margin: 0 0 4rem 0;
   }
   .catalog-main-banner__background {
-    display: none;
+    max-width: 71rem;
   }
   .catalog-main-banner__right-photo {
     max-width: 71rem;
