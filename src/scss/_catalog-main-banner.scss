@@ -10,7 +10,6 @@
     padding: 6rem 6rem 12rem 6rem;
     max-width: 81.7rem;
     border-radius: 0 0 0 5rem;
-    border: 0.2rem solid $line;
 }
 .catalog-main-banner__title {
     color: $light;
@@ -63,7 +62,6 @@
         padding: 12rem 4rem 8rem 4rem;
         max-width: none;
         border-radius: 0 0 0 0;
-        border: none;
     }
     .catalog-main-banner__title {
         margin: 0 0 8rem 0;
@@ -82,6 +80,7 @@
     }
     .catalog-main-banner__background {
         max-width: 71rem;
+        margin: 0 0 0 0;
     }
     .catalog-main-banner__right-photo {
         max-width: 71rem;
