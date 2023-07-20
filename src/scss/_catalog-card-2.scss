@@ -15,9 +15,9 @@
     max-width: 37.4rem;
     position: relative;
     padding: 3rem;
-    background: $biege;
     border-radius: 0 0 5rem 5rem;
     border: 0.15rem solid $line;
+    background: url('../images/svg/card-2-backgrnd.svg') top left/cover no-repeat $biege
 }
 .catalog-card-2__title {
     margin: 0 0 3rem 0;
@@ -31,7 +31,6 @@
     margin: 0 0 4.2rem 0;
     width: 32rem;
     position: relative;
-    z-index: 2;
 }
 .catalog-card-2__characteristic {
 }
@@ -80,20 +79,6 @@
 .catalog-card-2__add-to-cart {
     top: 27.4rem;
     left: 28.4rem;
-}
-
-.catalog-card-2__background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 37.4rem;
-    height: auto;
-    & img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    z-index: 1;
 }
 
 @media (max-width: 48em) {
@@ -155,8 +140,5 @@
     .catalog-card-2__add-to-cart {
         top: 55rem;
         left: 56.6rem;
-    }
-    .catalog-card-2__background {
-        max-width: 71rem;
     }
 }
