@@ -1372,6 +1372,8 @@ input[type=number] {
   gap: 1.6rem;
   margin: 0 0 4.2rem 0;
   width: 32rem;
+  position: relative;
+  z-index: 2;
 }
 
 .catalog-card-2__characteristic-lines {
@@ -1428,6 +1430,7 @@ input[type=number] {
   left: 0;
   max-width: 37.4rem;
   height: auto;
+  z-index: 1;
 }
 .catalog-card-2__background img {
   width: 100%;
@@ -1571,7 +1574,7 @@ input[type=number] {
     padding: 12rem 4rem 8rem 4rem;
     max-width: none;
     border-radius: 0 0 0 0;
-    border: 0.2rem solid rgba(234, 194, 178, 0.25);
+    border: none;
   }
   .catalog-main-banner__title {
     margin: 0 0 8rem 0;
@@ -1587,8 +1590,7 @@ input[type=number] {
     margin: 0 0 4rem 0;
   }
   .catalog-main-banner__background {
-    width: 71rem;
-    height: 108.4rem;
+    max-width: 71rem;
   }
   .catalog-main-banner__right-photo {
     max-width: 71rem;

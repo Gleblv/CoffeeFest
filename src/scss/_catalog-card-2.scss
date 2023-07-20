@@ -30,6 +30,8 @@
     gap: 1.6rem;
     margin: 0 0 4.2rem 0;
     width: 32rem;
+    position: relative;
+    z-index: 2;
 }
 .catalog-card-2__characteristic {
 }
@@ -91,6 +93,7 @@
         height: 100%;
         object-fit: cover;
     }
+    z-index: 1;
 }
 
 @media (max-width: 48em) {
